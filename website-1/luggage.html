@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+    padding: 0;
+    margin: 0;
+}
+.nav_friend_family{
+    border: 1px solid black;
+    height: 4vh;
+      display: flex;
+      justify-content: center;
+    text-align: center;
+    letter-spacing: .1vh;
+    align-items: center;
+    background-color: rgb(41, 41, 41);
+    font-size: 1rem;
+    color: white;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media screen and (max-width:576px) {
+  .row1{
+    display: flex;
+    flex-direction: column;
+     margin: 30px;
+  }
+  h2{
+    font-size: 1.2rem;
+    
+  }
+  .row2{
+       display: flex;
+    flex-direction: column;
+     margin: 30px;
+  }
+  .end_footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .lugage_disney_sale{
+    font-size: .2rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .lugage{
+    font-size: .9rem;
+    text-decoration: none;
+  }
+  .disney_star{
+      font-size: .9rem;
+  }
+  .sale{
+       font-size: .9rem;
+  }
+  .clearance{
+    font-size: .9rem;
+  }
+  .nav_friend_family{
+    font-size: .7rem;
+  }
+  .icons_american{
+    height: 5vh;
+  }
+  .search{
+    display: none;
+  }
+  .cart{
+    display: none;
+  }
+}
+@media screen and (max-width:369px) {
+  .nav_friend_family{
+      font-size: .8rem;
+  }
+}
+#shop_now{
+  text-decoration: underline;
+  cursor: pointer;
+}
+#shop_now:hover{
+  text-decoration: none;
+    /* cursor: pointer; */
+}
+#icons_american{
+  height: 6vh;
+}
+.nav_american_icon{
+  display: flex;
+
+}
+.lugage_disney_sale{
+  display: flex;
+  margin: auto;
+  font-size: 1.3rem;
+  gap: 1.19rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.lugage_img_row1 , .lugage_img_row2{
+  margin: auto;
+   font-family: Arial, Helvetica, sans-serif;
+   /*  */
+  /* border: 1px solid black; */
+  /* width: 92vw; */
+}
+
+.row1{
+  /* border: 1px solid black; */
+  display: flex;
+  margin: auto;
+  width: 94vw;
+}
+.row2{
+   display: flex;
+  margin: auto;
+  width: 94vw;
+}
+#img1{
+  height: 400px;
+
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  cursor: pointer;
+}
+.row1_text1{
+  margin: 2vh;
+  font-size: 1.3rem;
+  font-weight: 400;
+  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.row1_text2{
+    margin-left: 2vh;
+}
+.row1_text3{
+  font-size: 1rem;
+  margin-left: 2vh;
+  color: gray;
+}
+.row1_text4{
+    font-size: 1rem;
+  margin-left: 2vh;
+  color: gray;
+}
+.row1_text5{
+    margin-left: 2vh;
+     cursor: pointer;
+}
+.second_footer{
+  width: 90vw;
+  display: flex;
+   font-family: Arial, Helvetica, sans-serif; 
+  flex-direction: column;
+  /* border: 1px solid black; */
+  margin: auto;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.get_the_last_on_pro{
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: .1rem;
+  margin: 2vh;
+}
+.second_footer_child{
+  display: flex;
+  justify-content: space-between;
+}
+.end_footer{
+  display: flex;
+  justify-content: space-around;
+}
+.end_footer1 , .end_footer2 , .end_footer3 , .end_footer4{
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif; 
+  gap: 2vh;
+  /* letter-spacing: .2rem; */
+  font-size: 1.3rem;
+}
+.Last_ride{
+  margin-top: 5vh;
+}
+.search{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row1_img1:hover{
+  transform: scale(1.1);
+}
+#profile{
+  height: 20px;
+  margin: 9px;
+  cursor: pointer;
+}
+.cart{
+   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search_cart{
+  display: flex;
+}
+#cart{
+   height: 20px;
+  margin: 9px;
+  cursor: pointer;
+}
+
+
+    </style>
+</head>
+<body>
+        <header>
+            <div class="nav_friend_family">
+                FRIENDS & FAMILY -SAVE 30% OFF +EXTRA 15% OFF, <span id="shop_now">SHOP NOW</span>
+
+
+            </div>
+             <div class="nav_american_icon">
+                <div class="icons_american">
+                  <a href="index.html">  <img src="Screenshot 2025-10-21 110133.png" id="icons_american" alt=""></a>
+                </div>
+                 <div class="lugage_disney_sale">
+                    <div class="lugage"><a href="luggage.html" style="  text-decoration: none">Luggage</a></div>
+                    <div class="disney_star"><A href="disney_starWar.html" style="  text-decoration: none;">Disney & Star Wars</A></div>
+                    <div class="sale" style="color: orange;">Sale</div>
+                    <div class="clearance">Clearance</div>
+                </div>
+                <div class="search_cart">
+                    <div class="search">
+                       <img src="https://res.cloudinary.com/dxzo7jfbn/image/upload/v1761386706/user_qpxsju.png" id="profile" alt="">
+                    </div>
+                    <div class="cart">
+                        <img src="https://res.cloudinary.com/dxzo7jfbn/image/upload/v1761386706/bag_k3aws1.png" id="cart" alt="">
+
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+          <h1 style="font-family: Arial, Helvetica, sans-serif;">Luggage</h1>
+                  <div class="row1">
+                    <div class="box1">
+                        <div class="row1_img1">
+                            <img src="https://shop.americantourister.com/dw/image/v2/BBZB_PRD/on/demandware.static/-/Sites-product-catalog/default/dwfe0edbc7/collections/_AT/Airconic/500x500/128188-E566-FRONT34.jpg?sw=912&sh=912"
+                                id="img1" alt="">
+                        </div>
+                        <div class="row1_text1">
+                            <div class="row1_text1" style=" cursor: pointer;">Airconic Large </div>
+                            <div class="row1_text2">$125.99 &nbsp; <span style="color: rgb(220, 108, 3);">30% Off</span>
+                            </div>
+                            <div class="row1_text3">Comp. Value $179.99</div>
+                            <div class="row1_text4">+ Extra 15% Off With Code FF15</div>
+                            <div class="row1_text5">★★★★☆</div>
+                        </div>
+                    </div>
+
+
+                    <div class="box1">
+                        <div class="row1_img1">
+                            <img src="https://shop.americantourister.com/dw/image/v2/BBZB_PRD/on/demandware.static/-/Sites-product-catalog/default/dw1f9139a1/collections/_AT/Speedstar/500x500/146721-7341-GROUP.jpg?sw=912&sh=912"
+                                id="img1" alt="">
+                        </div>
+                        <div class="row1_text1">
+                            <div class="row1_text1" style=" cursor: pointer;">Speedstar 2 piece Set  (CO/L)</div>
+                            <div class="row1_text2">$124.99 &nbsp; <span style="color: rgb(220, 108, 3);">50% Off</span>
+                            </div>
+                            <div class="row1_text3">Comp. Value $249.99</div>
+                            <div class="row1_text4">+ Extra 15% Off With Code FF15</div>
+                            <div class="row1_text5">★★★★☆</div>
+                        </div>
+                    </div>
+
+
+                    <div class="box1">
+                        <div class="row1_img1">
+                            <img src="https://shop.americantourister.com/dw/image/v2/BBZB_PRD/on/demandware.static/-/Sites-product-catalog/default/dwbb74243e/collections/_AT/Stratum-3/500x500/156163-A382-FRONT34-updated.jpg?sw=912&sh=912"
+                                id="img1" alt="">
+                        </div>
+                        <div class="row1_text1">
+                            <div class="row1_text1" style=" cursor: pointer;">Stratum 3.0 Spinner  Carry-On </div>
+                            <div class="row1_text2">$111.99 &nbsp; <span style="color: rgb(220, 108, 3);">30% Off</span>
+                            </div>
+                            <div class="row1_text3">Comp. Value $159.99</div>
+                            <div class="row1_text4">+ Extra 15% Off With Code FF15</div>
+                            <div class="row1_text5">★★★★☆</div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="box1">
+                        <div class="row1_img1">
+                            <img src="https://shop.americantourister.com/dw/image/v2/BBZB_PRD/on/demandware.static/-/Sites-product-catalog/default/dw65be3bb6/collections/_AT/Air-Move/500x500/139254-1552_B927_FRONT34_1_GHKL.jpg?sw=912&sh=912"
+                                id="img1" alt="">
+                        </div>
+                        <div class="row1_text1">
+                            <div class="row1_text1" style=" cursor: pointer;">Air Move  Carry-on</div>
+                            <div class="row1_text2">$70.00 </div>
+                            <div class="row1_text2">$111.99 &nbsp; <span style="color: rgb(220, 108, 3);">50% Off</span>
+                            <div class="row1_text4">+ Extra 15% Off With Code FF15</div>
+                            <div class="row1_text5">☆☆☆☆☆</div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+
+                                 <div class="row2">
+                    <div class="box1">
+                        <div class="row1_img1">
+                            <img src="https://shop.americantourister.com/dw/image/v2/BBZB_PRD/on/demandware.static/-/Sites-product-catalog/default/dw42b4abf2/collections/_AT/Air-Move/500x500/1392571552_3PCSet.jpg?sw=912&sh=912"
+                                id="img1" alt="">
+                        </div>
+                        <div class="row1_text1">
+                            <div class="row1_text1" style=" cursor: pointer;">Air Move 3 Piece Set </div>
+                            <div class="row1_text2">$200.00 &nbsp; <span style="color: rgb(220, 108, 3);">50% Off</span>
+                            </div>
+                            <div class="row1_text3">Comp. Value $399.99</div>
+                            <div class="row1_text4">+ Extra 15% Off With Code FF15</div>
+                            <div class="row1_text5">★★★★☆</div>
+                        </div>
+                    </div>
+
+
+                    <div class="box1">
+                        <div class="row1_img1">
+                            <img src="https://shop.americantourister.com/dw/image/v2/BBZB_PRD/on/demandware.static/-/Sites-product-catalog/default/dwaf768b4d/collections/_AT/Disney/500x500/856896976_2PC_1_Front34.jpg?sw=912&sh=912"
+                                id="img1" alt="">
+                        </div>
+                        <div class="row1_text1">
+                            <div class="row1_text1" style=" cursor: pointer;">Wakebreaker Disney 2 Piece Set</div>
+                            <div class="row1_text2">$209.99 &nbsp; <span style="color: rgb(220, 108, 3);">30% Off</span>
+                            </div>
+                            <div class="row1_text3">Comp. Value $299.99</div>
+                            <div class="row1_text4">+ Extra 15% Off With Code FF15</div>
+                            <div class="row1_text5">★★★★☆</div>
+                        </div>
+                    </div>
+
+
+                    <div class="box1">
+                        <div class="row1_img1">
+                            <img src="https://shop.americantourister.com/dw/image/v2/BBZB_PRD/on/demandware.static/-/Sites-product-catalog/default/dwe31f8fb2/collections/_AT/Wavebreaker-Disney_7321/500x500/85673-9846-FRONT34.jpg?sw=912&sh=912"
+                                id="img1" alt="">
+                        </div>
+                        <div class="row1_text1">
+                            <div class="row1_text1" style=" cursor: pointer;">Wakebreaker Disney Large </div>
+                            <div class="row1_text2">$132.99 &nbsp; <span style="color: rgb(220, 108, 3);">30% Off</span>
+                            </div>
+                            <div class="row1_text3">Comp. Value $189.99</div>
+                            <div class="row1_text4">+ Extra 15% Off With Code FF15</div>
+                            <div class="row1_text5">★★★★☆</div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="box1">
+                        <div class="row1_img1">
+                            <img src="https://shop.americantourister.com/dw/image/v2/BBZB_PRD/on/demandware.static/-/Sites-product-catalog/default/dwd49e966f/collections/_AT/Air-Move/500x500/139256-2824-FRONT34.jpg?sw=912&sh=912"
+                                id="img1" alt="">
+                        </div>
+                        <div class="row1_text1">
+                            <div class="row1_text1" style=" cursor: pointer;">Air Move Large </div>
+                            <div class="row1_text2">$90.00 </div>
+                             <div class="row1_text2">$179.99 &nbsp; <span style="color: rgb(220, 108, 3);">30% Off</span>
+                            </div>
+                            <div class="row1_text4">+ Extra 15% Off With Code FF15</div>
+                            <div class="row1_text5">☆☆☆☆☆</div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                
+        </main>
+        <footer>
+             <div class="second_footer">
+               <div class="second_footer_child">
+                 <div class="get_the_last_on_pro">
+                    Get the latest on products and offers
+                </div>
+                <div class="linnk_facebook_youtube">
+                    <img src="" alt="">
+                </div>
+               </div>
+            </div>
+            <div class="last_ride">
+            <div class="end_footer">
+                <div class="end_footer1">
+                    <div class="footer_child1"><span style="font-weight: bold;">Product INFO</span></div>
+                    <div class="footer_child2">Product Care & Cleaning</div>
+                    <div class="footer_child3">Warranty</div>
+                    <div class="footer_child4">Service & Repair</div>
+                    <div class="footer_child5">Lock Instruction</div>
+                    <div class="footer_child6">FAQs</div>
+                    <div class="footer_child7">Carry-On Guide</div>
+                </div>
+                <div class="end_footer2">
+                    <div class="footer_child21"><span style="font-weight: bold;">ORDERS</span></div>
+                    <div class="footer_child22">Track Your Order</div>
+                    <div class="footer_child23">Shipping & Delivery </div>
+                    <div class="footer_child24">Return Policy</div>
+                    <div class="footer_child25">Promotion Details</div>
+                </div>
+                <div class="end_footer3">
+                    <div class="footer_child31"><span style="font-weight: bold;">CUSTOMER SERVICE</span></div>
+                    <div class="footer_child32">Contact Us </div>
+                    <div class="footer_child33">Product Registration</div>
+                    <div class="footer_child34">International Shopping</div>
+                    <div class="footer_child35">Fradulnet We</div>
+                </div>
+                <div class="end_footer4">
+                    <div class="footer_child41"><span style="font-weight: bold;">ABOUT AMERICAN TOURISTER</span></div>
+                    <div class="footer_child42">About Us</div>
+                    <div class="footer_child43">Our Responsible Journey</div>
+                    <div class="footer_child44">Social Compliance</div>
+                    <div class="footer_child45">Careers</div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                &copy; 2025 Samsonite IP Holdings S.ar.l.
+            </div>
+</div>
+        </footer>
+</body>
+</html>
