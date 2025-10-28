@@ -1,0 +1,427 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 95vw;
+    margin: auto;
+}
+#logo{
+    /* height: 1vh; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin: 2vh;
+}
+.link_1_nav{
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+}
+.book_trip_deals{
+    display: flex;
+    gap: 3vw;
+    align-items: center;
+    font-size: 1.3rem;
+    font-family:  sans-serif;
+    font-weight: 400;
+    /* color: rgb(120, 1, 255); */
+}
+@media screen and (max-width:576px) {
+    .flight_hotel_child1{
+        flex-direction: column;
+        gap: 3vh;
+        font-size: .8rem;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .rowAdd{
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+        
+    }
+    .book_trip_deals{
+        display: none;
+    }
+    .earn{
+        font-size: .5rem;
+    }
+    .off50{
+        font-size: .5rem;
+    }
+    .flight_hotel_child3{
+        display: flex;
+        /* flex-direction: column; */
+        border: .3vh dashed black;
+      flex-wrap: wrap;
+  
+        gap: 3vh;
+        /* align-items: center; */
+    }
+    .ad{
+        flex-direction: column;
+        font-size: .8rem;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .one_click_away{
+        width: 32px;
+        font-size: .8rem;
+    }
+      .footer-container {
+    flex-direction: column;
+  }
+}
+.traffic_sheet{
+    display: flex;
+    gap: 1vh;
+    text-decoration: none;
+    align-items: center;
+}
+#tariif_sheet{
+    text-decoration: none;
+}
+.link_1_nav{
+    background-color: rgba(243, 243, 243,.6);
+    margin: auto;
+
+}
+@media screen and (min-width:577px) and (max-width:768px) {
+    .rowAdd{
+        flex-wrap: wrap;
+    }
+}
+#location{
+    font-size: 1.1rem;
+    width: 100px;
+    border: none;
+    color: #001489;
+}
+body{
+    /* background-image: url(https://th.bing.com/th/id/OIP.KXMu_4LoylV-G7-QQLqGzQHaE8?w=291&h=195&c=7&r=0&o=7&pid=1.7&rm=3);
+    background-repeat: repeat-y;
+    background-size: cover; */
+    background-color: rgb(222, 251, 255);
+    
+}
+.link_1_nav{
+    position: sticky;
+}
+h1{
+    font-family:cursive;
+    color: rgb(12, 19, 111);
+}
+@media screen and (max-width:576px){
+    h1{
+        font-size: .9rem;
+    }
+}
+.flight_hotel{
+    margin-top: 2vh;
+    border-radius: 1vw;
+    /* border: 2px solid ; */
+    background-color: white;
+}
+.flight_hotel_child1{
+    display: flex;
+    justify-content: space-between;
+}
+.flight_hotel_child2{
+    margin-top: 2vh;
+    margin-left: 2vh;
+    display: flex;
+    gap:2vh;
+    font-size: 1.1rem;
+}
+.flight_child{
+    background-color:rgb(7, 19, 198) ;
+    color: white;
+    height: 8vh;
+    /* width: 10vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    border-top-left-radius: 1vw;
+}
+.hotel{
+    display: flex;
+    width: 33%;
+    background-color: rgba(249, 249, 249, 0.94);
+justify-content: center;
+align-items: center;
+gap: 2vh;
+font-family: sans-serif;
+color: grey;
+
+
+}
+.sight_seeing{
+    width: 33%;
+        background-color: rgba(249, 249, 249, 0.94);
+    display: flex;
+    border-top-right-radius: 1vw;
+    justify-content: center;
+    align-items: center;
+}
+.row2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+}
+.off50{
+   background-color:rgb(7, 19, 198)  ;
+    height: 4vh;
+    width: 70px;
+    border-radius: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.from_where{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.to_where{
+      width: 25%;
+       display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.departure{
+    width: 16%;
+     display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.return{
+    width: 16%;
+     display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.traveller_special{
+       display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.flight_hotel_child4{
+    margin-top: 2vh;
+    font-size: 1.2rem;
+}
+#cash{
+    border: .1vh solid #001489;
+    width: 80px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+}
+.earn{
+    background-color:rgb(7, 19, 198)  ;
+    height: 4vh;
+    width: 190px;
+    border-radius: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.infants{
+    background-color: white;
+    width: 20vw;
+}
+.flight_hotel_main{
+    width: 97%;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    background-color: white;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+.flight_hotel_child3{
+    display: flex;
+    margin: auto;
+    width: 98%;
+    font-size: 1.2rem;
+    border-radius: 1vh;
+    padding: 1.8vh;
+    border: .3vh solid rgb(141, 141, 229);
+}
+.to_where{
+    /* border-right: .5vh solid; */
+}
+#number{
+    width: 100px;
+}
+.ad{
+    display: flex;
+    gap: 1vw;
+    margin-top: 3vh;
+    font-family: sans-serif;
+}
+#hdfc{
+    height: 30px;
+}
+.one_click_away ,.infants1 ,.hdfc_bank{
+    width: 30%;
+    background-color: rgb(219, 219, 219);
+    border-radius: 3VH;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2vh;
+    align-items: start;
+    height: 9vh;
+}
+.hdfc_bank{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.one_text , .infants_fly_text , .hdfc_bank_text{
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    color: rgb(7, 19, 198) ;
+}
+.find_exciting_offers_and_best{
+  background-color: white;
+  font-family: sans-serif;
+
+    margin-top: 2vh;
+    padding-top: 3vh;
+    border: 2px solid ;
+}
+#img_ad{
+    height: auto;
+    width: 300px;
+    border-radius: 3vh;
+}
+.rowAdd{
+     padding-top: 2vh;
+    display: flex;
+    gap: 2vw;
+}
+#exciting_offer{
+    font-size: 1.7rem;
+    margin-left: 2vh;
+    font-family: cursive;
+}
+.kotak-1{
+    margin-left: 2vh;
+}
+.main_ad_child{
+    width: 97%;
+    margin: auto;
+}
+#adOneBig{
+    width: 100%;
+    margin-top: 2vh;
+    border-radius: 2vh;
+ 
+}
+.main_add_div{
+    margin-top: 2vh;
+    background-color: rgb(230, 230, 230);
+    border-radius: 2vh;
+}
+.new_ad_child1 ,  .new_ad_child2{
+    width: 50%;
+}
+ #img_new_kotak{
+    width: 150%;
+    height: auto;
+    /* width: 100px; */
+}
+.new_ad_child11{
+    display: flex;
+   
+}
+#img_new_unlock{
+    width: 200px;
+    height: auto;
+}
+#new_ad_child12{
+    width: 100%;
+}
+#new_ad_unlock_kotak{
+    width: 98%;
+    height: 99%;
+}
+.new_ad{
+    display: flex;
+}
+
+#flight_innformation{
+    width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+}
+
+.footer {
+  background-color: #001489;
+  color: white;
+  padding: 50px 80px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 180px;
+}
+
+.footer-column h3 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  letter-spacing: 0.5px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  font-size: 13px;
+  line-height: 1.9;
+  color: #fff;
+  cursor: pointer;
+}
+
+.footer-column ul li:hover {
+  text-decoration: underline;
+}
+
+.footer-column img {
+  width: 110px;
+  height: 110px;
+  margin-bottom: 10px;
+}
+
+.footer-column p {
+  font-size: 13px;
+}
+
+
+
