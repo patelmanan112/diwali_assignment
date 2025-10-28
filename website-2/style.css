@@ -89,9 +89,12 @@
     margin: auto;
 
 }
-@media screen and (min-width:577px) and (max-width:768px) {
+@media screen and (min-width:577px) and (max-width:820px) {
     .rowAdd{
         flex-wrap: wrap;
+    }
+    #img_ad{
+        height: 250px;
     }
 }
 #location{
@@ -309,7 +312,7 @@ color: grey;
 .rowAdd{
      padding-top: 2vh;
     display: flex;
-    gap: 2vw;
+    gap: 1vw;
 }
 #exciting_offer{
     font-size: 1.7rem;
