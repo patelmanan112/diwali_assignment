@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Subscription Form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 20px;
+        }
+        
+        .subscription-container {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            max-width: 450px;
+            width: 100%;
+            text-align: center;
+        }
+        
+        h2 {
+            color: #333;
+            margin-bottom: 15px;
+            font-weight: 600;
+            font-size: 24px;
+        }
+        
+        p {
+            color: #666;
+            margin-bottom: 25px;
+            line-height: 1.5;
+            font-size: 16px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        input[type="email"] {
+            width: 100%;
+            padding: 14px 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+        
+        input[type="email"]:focus {
+            outline: none;
+            border-color: #4a6cf7;
+            box-shadow: 0 0 0 3px rgba(74, 108, 247, 0.1);
+        }
+        
+        button {
+            background-color: #4a6cf7;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 14px 30px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            width: 100%;
+        }
+        
+        button:hover {
+            background-color: #3a5ce5;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(74, 108, 247, 0.3);
+        }
+        
+        .privacy-note {
+            font-size: 14px;
+            color: #888;
+            margin-top: 20px;
+            line-height: 1.5;
+        }
+        
+        .privacy-note a {
+            color: #4a6cf7;
+            text-decoration: none;
+        }
+        
+        .privacy-note a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 480px) {
+            .subscription-container {
+                padding: 30px 25px;
+            }
+            
+            h2 {
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="subscription-container">
+        <h2>Get exclusive access to new products, deals & surprise treats</h2>
+        <p>Enter your email to register</p>
+        
+        <form id="subscription-form">
+            <div class="form-group">
+                <input type="email" id="email" placeholder="Your email address" required>
+            </div>
+            <button type="submit">SUBMIT</button>
+        </form>
+        
+        <p class="privacy-note">
+            You are signing up to receive product updates and newsletters.<br>
+            By signing up, you are consenting to our <a href="#">privacy policy</a> but you can opt out at any time.
+        </p>
+    </div>
+
+  
+</body>
+</html>

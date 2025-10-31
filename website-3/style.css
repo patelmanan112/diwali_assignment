@@ -1,0 +1,525 @@
+ *{
+    padding: 0;
+    margin: 0;
+ }
+ .menu_bar{
+            height: 6vh;
+            width: 100vw;
+            background-color: #e8e4e0;   
+             position:fixed; 
+            }
+
+.menu_bar_child{
+    width: 96vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+   
+     background-color: #e8e4e0;    
+}     
+.span_div{
+    display: flex;
+    flex-direction: column;
+    gap: .6vh;
+}
+.hamberburger{
+    position: relative;
+} 
+#profile{
+    height: 30px;
+}      
+#search{
+    height: 28px;
+}
+.profile_search{
+    display: flex;
+    gap: 1.7vh;
+    justify-content: center;
+    align-items: center;
+}
+.cart{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.logo{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+#productiveEssentials{
+    width: 100vw;
+    height: auto;
+   margin-top: 5vh;
+}
+.text1{
+font-size: 100px;
+color: aqua;
+display: flex;
+z-index: 100;
+
+}
+body{
+    background-color: #d1c6bc;
+  
+}
+.design{
+    width: 50vw;
+    margin: auto;
+      display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+.design_text{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-family: "Roboto";
+}
+.design_text_discription{
+    width: 50%;
+     text-align: center;
+     font-size: 18px;
+     font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.touch_sensetive{
+    height: 107vh;
+   background-image: url(//nooe.co/cdn/shop/files/bg-image-nooe-collage.jpg?v=1721972890);
+   background-size: cover;
+}
+.marquee{
+    margin-top: 12VH;
+    padding-top: 5VH;
+    font-family: sans-serif;
+    font-size: 20PX;
+    color: rgb(143, 132, 114);
+    display: flex;
+    
+}
+.main_touch_sensetive{
+    width: 96vw;
+    margin: auto;
+    margin-top: 7vh;
+    margin-bottom: 8vh;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 1.4rem;
+    gap: 2vh;
+    font-family: sans-serif;
+}
+.desk_accessories{
+    width: 33%;
+    
+  
+}
+.text_desk{
+    margin-left: 2vh;
+    font-size: 1.5rem;
+    letter-spacing: .3vh;
+}
+.stationery_everyday{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+.bento{
+    width: 33%;
+}
+#desk_accessories{
+    width: 100%;
+      border-radius: 15px;
+}
+#stationary{
+    width: 100%;
+   border-radius: 15px;
+}
+#everyday_carry{
+    width: 100%;
+       border-radius: 15px;
+}
+#bento{
+    width: 100%;
+       border-radius: 15px;
+}
+.exceptional_materials_meet{
+    width: 96vw;
+    display: flex;
+    margin: auto;
+    /* border: 1px solid gold; */
+    margin-top: 10vh;
+}
+.exceptional_text{
+    font-family: sans-serif;
+   margin-top: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px;
+    gap: 7vh;
+   
+}
+.exceptional_text1{
+    font-size: 2.3rem;
+     
+
+}
+.exceptional_text2{
+    font-size: 1.4rem;
+    line-height: 4vh;
+}
+#exceptional{
+    width: 55vw;
+    border-radius: 15px;
+}
+.strong{
+    transform: rotate(90deg);
+}
+.nooe_reinventing{
+    background-color: #655529;
+    margin-bottom: 5vh;
+    /* height: 100vh; */
+    margin-top: 9vh;
+}
+.nooe_reinvienting_main{
+    display: flex;
+}
+.nooe_reinvienting_child1{
+    width: 50%;
+}
+.nooe_reinvienting_contain{
+    display: flex;
+    flex-direction: column;
+    /* margin: auto; */
+   align-content: center;
+  
+    gap: 5vh;
+    margin-top: 10vh;
+    margin-left: 8vw;
+}
+.nooe_reinvienting_child11 , .nooe_reinvienting_child12 , .nooe_reinvienting_child13{
+    border: 2px solid #A68E4C;
+    color: white;
+    font-family: sans-serif;
+    height: 25vh;
+    width: 27vw;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.nooe_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 45px; */
+    gap: 2vh;
+}
+.nooe_text1{
+    width: 60%;
+    line-height: 4vh;
+    text-align: center;
+}
+.nooe_text2{
+
+}
+#video1{
+    height: 83vh;
+    
+    border-radius: 10px;
+}
+.nooe_reinvienting_child2{
+    /* margin: 40px; */
+    margin-left: 9vw;
+    margin-top: 10vh;
+
+
+}
+.explore_our_best{
+    /* height: 100vh; */
+    width: 94vw;
+    margin: auto;
+    margin-top: 20vh;
+   
+}
+.box1{
+     display: flex;
+    /* flex-direction: column; */
+    gap: 4.6vh;
+    margin-left: 5vh;
+    margin-top: 2vh;
+    /* margin: auto; */
+}
+.heading1{
+    text-align: center;
+    font-family: sans-serif;
+     color: rgb(28, 27, 27);
+}
+.box1Img1{
+    width: 20vw;
+    border-radius: 1vh;
+    height: 20vw;
+
+}
+.boxText{
+    display: flex;
+    flex-direction: column;
+    gap: .81vh;
+    margin-top: 3vh;
+}
+.boxText1{
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.boxText2{
+     font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: 100; 
+
+}
+
+.shopTheLoop{
+    margin-top: 19vh;
+}
+#shopLoop{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 2.1rem;
+   width: 95vw;
+   margin: auto;
+}
+.imgShop{
+    width: 95vw;
+    margin: auto;
+}
+#imgShop{
+    margin-top: 4vh;
+ width: 100%;
+}
+.simpleText{
+    width: 35vw;
+    margin: auto;
+}
+.textSimple{
+    text-align: center;
+    margin-top: 14vh;
+    font-family: sans-serif;
+     font-size: 1.2rem;
+}
+              
+.SimpleImg{
+    font-size: 3.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+}
+#line{
+    margin-top: 15vh;
+    width: 100vw;
+}
+.aproach{
+    width: 95vw;
+    margin: auto;
+    display: flex;
+    margin-top: 10vh;
+}
+.approachChild1{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 3vh;
+    justify-content: center;
+    margin: auto;
+}
+
+.approachText{
+    width: 70%;
+line-height: 3.5vh;
+font-size: 1.1rem;
+font-weight: 100;
+margin-top: 20vh;
+margin-left: 4vw;
+word-spacing: .5vh;
+ font-family: 'Roobert Medium', sans-serif;
+/* font-family: "roboto"; */
+}
+.approachChild2{
+    /* margin-top: 8vh; */
+}
+.approachImg{
+    width: 70%;
+    margin-top: -1vh;
+    margin-left: 4vw;
+    
+}
+.footerMain{
+    display: flex;
+    width: 95vw;
+    gap: 3vw;
+    margin: auto;
+    margin-top: 5vh;
+}
+#ad{
+    height: 103vh;
+     border-radius: 2vh;
+}
+#ad3{
+    width: 100%;
+    height: 09%;
+    border-radius: 2vh;
+}
+.footer1{
+ 
+    
+    display: flex;
+    flex-direction: column;
+    gap: 2.9vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+}
+#footerLogo{
+    height: 30px;
+    margin-top: 40px;
+}
+.footer2{
+    margin-top: 4vh;
+      display: flex;
+    flex-direction: column;
+    gap: 2.2vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footerInfo{
+    display: flex;
+    flex-direction: column;
+    gap: .7vh;
+}
+.buildDesk{
+    margin-top: 5vh;
+}
+.selet{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vh;
+    margin-left: 5vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.india{
+    border: 2px solid black;
+    height: 6vh;
+    width: 15vw;
+    border-radius: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1C1B1B;
+}
+#india{
+    height: 3vh;
+    width: 7vw;
+    border: none;
+    background-color: #1C1B1B;
+    color: white;
+    font-size: 1.2rem;
+}
+@media screen and (max-width:576px) {
+    .main_touch_sensetive{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+    }
+    #desk_accessories{
+        width: 50vw;
+    }
+    .bento{
+        display: none;
+    }
+    .exceptional_materials_meet{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nooe_reinvienting_main{
+        display: flex;
+        flex-direction: column;
+    }
+    .nooe_reinvienting_child2{
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nooe_reinvienting_child12{
+          width: 100%;
+    }
+    .nooe_reinvienting_child11{
+         width: 100%;
+    }
+    .nooe_reinvienting_child13{
+        width: 100%;
+        font-size: 1.2rem;
+    }
+    .nooe_text{
+         font-size: 1.2rem;
+    }
+    #video1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        object-fit: contain;
+    }
+    .box1{
+        display: flex;
+        flex-direction: column;
+    }
+    .box1Img1{
+        /* width: 100vw; */
+        width: 100%;
+        height: auto;
+    }
+    .aproach{
+        display: flex;
+        flex-direction: column;
+        font-size: 2rem;
+    }
+    #ad3{
+        width: 100%;
+    }
+    #ad{
+        width: 100%;
+    }
+     .footerMain{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
